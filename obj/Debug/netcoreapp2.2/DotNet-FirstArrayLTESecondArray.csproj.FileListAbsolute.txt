@@ -1,0 +1,11 @@
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\bin\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.deps.json
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\bin\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.runtimeconfig.json
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\bin\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.runtimeconfig.dev.json
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\bin\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.dll
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\bin\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.pdb
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.csprojAssemblyReference.cache
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.csproj.CoreCompileInputs.cache
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.AssemblyInfoInputs.cache
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.AssemblyInfo.cs
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.dll
+D:\Source Code\GitHub\DotNet-FirstArrayLTESecondArray\DotNet-FirstArrayLTESecondArray\obj\Debug\netcoreapp2.2\DotNet-FirstArrayLTESecondArray.pdb
