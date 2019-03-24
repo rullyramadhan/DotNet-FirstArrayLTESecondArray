@@ -9,37 +9,45 @@ namespace DotNet_FirstArrayLTESecondArray
             int[] nums = { 1, 4, 2, 4 };
             int[] maxes = { 3, 5 };
         
-            Counts(nums, maxes);
+            int[] result = Counts(nums, maxes);
+            
+            Console.WriteLine(string.Join(' ', result));
 
             Console.ReadLine();
         }
-        static void Counts(int[] nums, int[] maxes)
+        static int[] Counts(int[] nums, int[] maxes)
         {
-            int MAX_CAPACITY = 100000;
-            int[] arr = new int[100000];
-            
-            for (int i = 0; i < nums.Length; i++)
-                arr[nums[i]]++;
-            
-            //catat masing dalam array
-            //1 ada 1
-            //2 ada 1
-            //4 ada 2
-  
-            for (int i = 1; i < MAX_CAPACITY; i++)
-            {
-                arr[i] = arr[i] + arr[i - 1];
-            }
+            int[] result = new int[maxes.Length];
 
-            //arr[1] = 1 => 1 + arr[0] = 1
-            //arr[2] = 1 => 1 + arr[1] = 2
-            //arr[3] = 1 => 1 + arr[2] = 2
-            //arr[4] = 2 => 2 + arr[2] = 4
+            Array.Sort(nums);
 
             for (int i = 0; i < maxes.Length; i++)
             {
-                Console.Write(arr[maxes[i]] + " ");
+                int idx = Search( nums, maxes[i]);
+                //karena index bukan length jadi +1
+                result[i] = idx + 1;
             }
+
+            return result;
+        }
+
+        static int Search(int[] nums, int max)
+        {
+            int l =0;
+            int h = nums.Length - 1;
+
+            while (l <= h)
+            {
+                int mid = (l + h) / 2;
+                
+                if (nums[mid] <= max)
+                    l = mid + 1;
+                
+                else
+                    h = mid - 1;
+            }
+            
+            return h;
         }
     }
 }
